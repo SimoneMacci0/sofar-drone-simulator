@@ -34,7 +34,7 @@ According to which portion of the exam you need to take, you can focus on specif
        1) **/world/locations**: allows for retrieving useful locations to guide the drone in the environment. Specifically, the service returns the hovering location, locations of individual boxes to be grasped and the location of the target pedestal where boxes are stacked.
        2) **/drone/vtol**: allows for executing Vertical Take-Off and Landing operations. Inspect *drone_sim_node.py* to find out about the interface needed to send proper take-off or landing commands.
 
-2) The **controller node**, which controls the drone's dynamic, enabling it to navigate the environment. The simulation implements a simplified version of a quadrotor's dynamics, decoupling vertical and horizontal displacement. Horizontal control is performed as usual through PID controller, as the drone accepts *Float64* commands on the **/drone/control/speed** topic. The drone's altitude, however, is controlled through second-order dynamical system, according to the following equation:
+2) The **controller node**, which controls the drone's dynamic, enabling it to navigate the environment. The simulation implements a simplified version of a quadrotor's dynamics, decoupling vertical and horizontal motion. Horizontal control is performed as usual through PID controller, as the drone accepts *Float64* commands on the **/drone/control/speed** topic. The drone's altitude, however, is controlled through second-order dynamical system, according to the following equation:
 
 ![sofar_drone_simulator/resource/dynamics.png](sofar_drone_simulator/resource/dynamics.png)
 
