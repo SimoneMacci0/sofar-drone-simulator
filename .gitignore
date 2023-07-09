@@ -1,0 +1,5 @@
+sofar_drone_simulator/launch/*
+sofar_drone_simulator/sofar_drone_simulator/__pycache__
+sofar_drone_simulator/sofar_drone_simulator/drone_controller.py
+sofar_drone_simulator/sofar_drone_simulator/drone_logic.py
+sofar_drone_simulator_interface/srv/*
