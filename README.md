@@ -69,4 +69,4 @@ Good luck ;)
 
 ## Expected Output
 
-![GIF](https://github.com/SimoneMacci0/sofar-manipulator-simulator/blob/main/sofar_manipulator_simulator/resource/output-final.gif)
+![GIF](https://github.com/SimoneMacci0/sofar-drone-simulator/blob/main/sofar_drone_simulator/resource/output.gif)
